@@ -45,3 +45,10 @@ console.log(url.includes("shivam")); // true;
 console.log(url.includes("shivammm")); // false;
 
 console.log(gameName.split("-"));
+
+const sam = "Shivam";
+// sam[0] = "J";
+console.log(sam);
+console.log("Helooo".at(5));
+
+console.log("Shivam ".repeat(3));
