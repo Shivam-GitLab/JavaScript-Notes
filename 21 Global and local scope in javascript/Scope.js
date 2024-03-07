@@ -27,3 +27,9 @@ console.log(a);
 //   const element = array[i];
 // }
 
+function test() {
+  var a = 30;
+  if (true) {
+    console.log(a);
+  }
+}
