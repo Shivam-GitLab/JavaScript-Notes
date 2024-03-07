@@ -12,7 +12,6 @@ console.log(null == undefined);
 console.log(null <= 0);
 console.log(null >= 0);
 
-
 /*
 console.log(null > 0); - This is asking, "Is nothing (null) more than zero?" The answer is no, so it prints false.
 
