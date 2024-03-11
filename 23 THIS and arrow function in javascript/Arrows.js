@@ -28,14 +28,16 @@ Sam2 welcome to the website
 // Sam1 jjjwelcome to the website
 // Sam2 welcome to the website
 
-console.log(this);
+// console.log(this);
 // {}jjjj
 
-function chai() {
-  console.log(this);
-}
+// function chai() {
+//   let username = "Shivam";
+//   console.log(this.username);
+//   // this only use in object
+// }
 
-chai();
+// chai();
 /*
 <ref *1> Object [global] {
   global: [Circular *1],
@@ -59,3 +61,44 @@ chai();
   crypto: [Getter]
 }
 */
+
+// const chai = function () {
+//   let username = "Shivam";
+//   console.log(this.username);
+// };
+
+// chai();
+// undefined
+
+const chai = () => {
+  let username = "Shivam";
+  console.log(this);
+};
+
+// chai();
+// {}
+// undefined
+
+// const addTwo = (num1, num2) => {
+//   return num1 + num2;
+// };
+// const addTwo = (num1, num2) => num1 + num2;
+// const addTwo = (num1, num2) => num1 + num2;
+const addTwo = (num1, num2) => ({
+  username: "Sam",
+});
+
+console.log(addTwo(3, 4));
+/*
+{ } - return dena padega
+( ) - return nahi dena padega
+*/
+
+// undefined
+// { username: 'Sam' }
+
+// const myArr = [2, 5, 7, 8, 9];
+
+// array.forEach(() => {
+
+// });
