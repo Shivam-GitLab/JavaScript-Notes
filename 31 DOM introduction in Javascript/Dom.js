@@ -46,3 +46,5 @@ var element = document.getElementById("myElement");
 
 // Removing the element from the DOM
 element.parentNode.removeChild(element);
+
+
