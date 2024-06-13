@@ -58,4 +58,3 @@ time if condition is true or false
 
 /* In this loop first of all work done
 and then condition check */
-
