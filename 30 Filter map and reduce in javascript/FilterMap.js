@@ -42,6 +42,7 @@ console.log(newNumsArr);
 [ 6, 8, 10, 12 ]
 */
 
+
 const books = [
   {
     title: "Book1",
