@@ -38,3 +38,4 @@ console.log(newNumss);
 // [ 400, 500 ]
 
 console.log("Hello");
+console.log("SAM");
