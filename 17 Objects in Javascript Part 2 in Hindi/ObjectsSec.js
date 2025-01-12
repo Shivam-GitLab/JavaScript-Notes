@@ -94,3 +94,4 @@ console.log(tinderUser.hasOwnProperty("isLoggedIn"));
 
 console.log(tinderUser.hasOwnProperty("isLogged"));
 // false
+console.log("hello");
